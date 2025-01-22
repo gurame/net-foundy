@@ -10,3 +10,6 @@ git merge feature-a
 git branch --list
 git branch test
 git branch -D test
+git remote add origin git@github.com:gurame/net-foundy.git
+git branch -M main
+git push -u origin main
