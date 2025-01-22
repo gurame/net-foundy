@@ -1,3 +1,6 @@
+Git
+===
+
 git stash
 git stash -u (include untracked files)
 git stash list
@@ -6,7 +9,8 @@ git clean -fd
 git commit --amend --no-edit
 git reset HEAD~1
 git reset --hard
-git reset c.txt
+git reset c.txt (unstage)
+git checkout c.txt (undo changes, wildcards)
 git merge feature-a
 git branch --list
 git branch test
@@ -15,3 +19,8 @@ git remote add origin git@github.com:gurame/net-foundy.git
 git branch -M main
 git push -u origin main
 git remote -v
+----------------------
+git fetch
+git merge origin/main 
+git pull
+----------------------
