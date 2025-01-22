@@ -24,3 +24,4 @@ git fetch
 git merge origin/main 
 git pull
 ----------------------
+git config --global --add --bool push.autoSetupRemote true
