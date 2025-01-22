@@ -6,3 +6,7 @@ git clean -fd
 git commit --amend --no-edit
 git reset HEAD~1
 git reset --hard
+git merge feature-a
+git branch --list
+git branch test
+git branch -D test
