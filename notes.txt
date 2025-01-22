@@ -6,6 +6,7 @@ git clean -fd
 git commit --amend --no-edit
 git reset HEAD~1
 git reset --hard
+git reset c.txt
 git merge feature-a
 git branch --list
 git branch test
@@ -13,3 +14,4 @@ git branch -D test
 git remote add origin git@github.com:gurame/net-foundy.git
 git branch -M main
 git push -u origin main
+git remote -v
