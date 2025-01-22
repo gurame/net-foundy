@@ -1,1 +1,8 @@
-this is a notes file
+git stash
+git stash -u (include untracked files)
+git stash list
+git stash pop
+git clean -fd
+git commit --amend --no-edit
+git reset HEAD~1
+git reset --hard
