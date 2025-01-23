@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetFoundy.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff9cc4bb062a8fee42631bf1c806e71ee0649390")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05d4e4d7b53e9f204cfb8ef81cdb74655bdcc942")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetFoundy.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetFoundy.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
