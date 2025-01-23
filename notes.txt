@@ -1,6 +1,5 @@
 GIT
 ===========================================================================================
-
 git stash
 git stash -u (include untracked files)
 git stash list
@@ -35,5 +34,8 @@ git rebase --continue
 gpo -f
 git reflog
 
-C#
+.NET
 ===========================================================================================
+dotnet new sln -n NetFoundy
+dotnet new console -n NetFoundy.Console -o src/NetFoundy.Console
+dotnet sln NetFoundy.sln add src/**/*.csproj
