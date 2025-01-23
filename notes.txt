@@ -33,6 +33,8 @@ https://dangitgit.com/ -> Troubleshooting
 git rebase --continue
 gpo -f
 git reflog
+-----------------------
+git rm -r --cached .
 
 .NET
 ===========================================================================================
