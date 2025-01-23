@@ -29,6 +29,7 @@ git config --global alias.copm '!git checkout main && git pull'
 git remote set-head origin main (in case of failure when using aliases)
 git cat-file 70c1d29 -p (content of changes)
 ----------------------
+https://github.com/scottsauber/dotfiles/blob/main/.zshrc -> aliases
 https://dangitgit.com/ -> Troubleshooting
 git rebase --continue
 gpo -f
