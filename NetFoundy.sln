@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD454799-CA3D-4521-8316-9E490B2CC735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFoundy.Concepts", "src\Concepts\NetFoundy.Concepts.csproj", "{223FC5D2-8442-43FF-9015-DC16D140EEF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{223FC5D2-8442-43FF-9015-DC16D140EEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223FC5D2-8442-43FF-9015-DC16D140EEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223FC5D2-8442-43FF-9015-DC16D140EEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223FC5D2-8442-43FF-9015-DC16D140EEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{223FC5D2-8442-43FF-9015-DC16D140EEF9} = {BD454799-CA3D-4521-8316-9E490B2CC735}
 	EndGlobalSection
 EndGlobal

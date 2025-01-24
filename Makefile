@@ -1,5 +1,7 @@
 build:
 	dotnet build NetFoundy.sln
 
-run:
-	dotnet run --project src/NetFoundy.Console/NetFoundy.Console.csproj
+n ?= 
+
+concepts:
+	dotnet run --project src/Concepts/NetFoundy.Concepts.csproj -- $(n)
