@@ -6,6 +6,9 @@ switch (topic)
     case "reftypes":
         ReferenceTypes.Run();
         break;
+    case "enums":
+        Enums.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
