@@ -12,6 +12,9 @@ switch (topic)
     case "records":
         Records.Run();
         break;
+    case "tuples":
+        Tuples.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
