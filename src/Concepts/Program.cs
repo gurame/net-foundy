@@ -9,6 +9,9 @@ switch (topic)
     case "enums":
         Enums.Run();
         break;
+    case "records":
+        Records.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;

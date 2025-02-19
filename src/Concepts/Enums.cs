@@ -1,3 +1,5 @@
+namespace NetFoundy.Concepts;
+
 class Enums
 {
     [Flags]
