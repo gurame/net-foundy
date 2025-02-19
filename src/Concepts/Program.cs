@@ -15,6 +15,9 @@ switch (topic)
     case "tuples":
         Tuples.Run();
         break;
+    case "streams":
+        Streams.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
