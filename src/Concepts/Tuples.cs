@@ -20,7 +20,7 @@ class Tuples
         Console.WriteLine(pi);
 
         (int, string, int) tupleA = (123, "Hello", 456);
-        (byte, string, float) tupleB = (FirstNumber: 123, Name: "Hello", SecondNumber: 456);
+        (byte FirstNumber, string Name, float SecondNumber) tupleB = (FirstNumber: 123, Name: "Hello", SecondNumber: 456);
         Console.WriteLine($"tupleA == tupleB: {tupleA == tupleB}");
 
     }

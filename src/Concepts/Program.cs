@@ -18,6 +18,9 @@ switch (topic)
     case "streams":
         Streams.Run();
         break;
+    case "events":
+        Events.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
