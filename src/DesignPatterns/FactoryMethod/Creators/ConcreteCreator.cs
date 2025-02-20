@@ -4,7 +4,7 @@ namespace NetFoundy.DesignPatterns.FactoryMethod.Creators;
 
 class ConcreteCreator : Creator
 {
-    public override IProduct CreateProduct()
+    public override Product CreateProduct()
     {
         return new ConcreteProduct();
     }

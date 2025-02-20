@@ -1,5 +1,5 @@
 namespace NetFoundy.DesignPatterns.FactoryMethod.Products;
-interface IProduct
+interface Product
 {
     void Operation();
 }

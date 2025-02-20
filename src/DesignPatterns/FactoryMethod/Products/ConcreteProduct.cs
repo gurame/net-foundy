@@ -1,5 +1,5 @@
 namespace NetFoundy.DesignPatterns.FactoryMethod.Products;
-class ConcreteProduct : IProduct
+class ConcreteProduct : Product
 {
     public void Operation()
     {
