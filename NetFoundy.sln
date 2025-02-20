@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD454799-CA3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFoundy.Concepts", "src\Concepts\NetFoundy.Concepts.csproj", "{223FC5D2-8442-43FF-9015-DC16D140EEF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFoundy.DesignPatterns", "src\DesignPatterns\NetFoundy.DesignPatterns.csproj", "{95B0F494-4397-4A51-A2B1-57924670311B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{223FC5D2-8442-43FF-9015-DC16D140EEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{223FC5D2-8442-43FF-9015-DC16D140EEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{223FC5D2-8442-43FF-9015-DC16D140EEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B0F494-4397-4A51-A2B1-57924670311B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B0F494-4397-4A51-A2B1-57924670311B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B0F494-4397-4A51-A2B1-57924670311B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B0F494-4397-4A51-A2B1-57924670311B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{223FC5D2-8442-43FF-9015-DC16D140EEF9} = {BD454799-CA3D-4521-8316-9E490B2CC735}
+		{95B0F494-4397-4A51-A2B1-57924670311B} = {BD454799-CA3D-4521-8316-9E490B2CC735}
 	EndGlobalSection
 EndGlobal
