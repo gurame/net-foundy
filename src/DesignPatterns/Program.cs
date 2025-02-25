@@ -1,5 +1,6 @@
 using NetFoundy.DesignPatterns.AbstractFactory.Implementation;
 using NetFoundy.DesignPatterns.FactoryMethod.Implementation;
+using NetFoundy.DesignPatterns.Prototype.Implementation;
 
 var topic = args[0];
 switch (topic)
@@ -9,6 +10,9 @@ switch (topic)
         break;
     case "abstract-factory":
         AbstractFactoryClient.Run();
+        break;
+    case "prototype":
+        PrototypeClient.Run();
         break;
     default:
         Console.WriteLine("Unknown topic");
