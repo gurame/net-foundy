@@ -1,4 +1,3 @@
-using NetFoundy.DesignPatterns.FactoryMethod.Implementation.Enemies;
 using NetFoundy.DesignPatterns.FactoryMethod.Implementation.Levels;
 
 namespace NetFoundy.DesignPatterns.FactoryMethod.Implementation;
@@ -7,10 +6,10 @@ class FactoryMethodClient
 {
     public static void Run()
     {
-        Level level1 = new CaveLevel();
+        Level level1 = LevelFactory.CreateLevel(1);
         level1.EncounterEnemy();
         
-        Level level2 = new HountedHouseLevel();
+        Level level2 = LevelFactory.CreateLevel(2);
         level2.EncounterEnemy();
     }
 }
