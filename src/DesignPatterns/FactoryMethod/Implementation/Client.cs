@@ -6,7 +6,7 @@ class FactoryMethodClient
 {
     public static void Run()
     {
-        Level level1 = LevelFactory.CreateLevel(1);
+        Level level1 = LevelFactory.CreateLevel(levelNumber: 1);
         level1.EncounterEnemy();
         
         Level level2 = LevelFactory.CreateLevel(2);
