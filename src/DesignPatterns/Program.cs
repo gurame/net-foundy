@@ -1,4 +1,4 @@
-using NetFoundy.DesignPatterns.FactoryMethod;
+using NetFoundy.DesignPatterns.FactoryMethod.Implementation;
 
 var topic = args[0];
 switch (topic)
@@ -9,4 +9,4 @@ switch (topic)
     default:
         Console.WriteLine("Unknown topic");
         break;
-}
+}           

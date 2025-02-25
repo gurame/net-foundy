@@ -1,6 +1,6 @@
-using NetFoundy.DesignPatterns.FactoryMethod.Products;
+using NetFoundy.DesignPatterns.FactoryMethod.Base.Products;
 
-namespace NetFoundy.DesignPatterns.FactoryMethod.Creators;
+namespace NetFoundy.DesignPatterns.FactoryMethod.Base.Creators;
 
 class ConcreteCreator : Creator
 {

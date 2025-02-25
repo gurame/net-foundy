@@ -1,4 +1,4 @@
-namespace NetFoundy.DesignPatterns.FactoryMethod.Products;
+namespace NetFoundy.DesignPatterns.FactoryMethod.Base.Products;
 class ConcreteProduct : Product
 {
     public void Operation()

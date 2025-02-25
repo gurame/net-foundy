@@ -1,8 +1,7 @@
+using NetFoundy.DesignPatterns.FactoryMethod.Base.Creators;
+using NetFoundy.DesignPatterns.FactoryMethod.Base.Products;
 
-using NetFoundy.DesignPatterns.FactoryMethod.Creators;
-using NetFoundy.DesignPatterns.FactoryMethod.Products;
-
-namespace NetFoundy.DesignPatterns.FactoryMethod;
+namespace NetFoundy.DesignPatterns.FactoryMethod.Base;
 
 class FactoryMethodClient
 {
