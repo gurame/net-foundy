@@ -9,7 +9,7 @@ class AdapterClient
     public static void Run()
     {
         LegacyRectangle legacyRectangle = new(0, 0, 100, 100);
-        IRectangle rectangle = new LegacyRectanleAdapter(legacyRectangle);
+        IRectangle rectangle = new LegacyRectangleAdapter(legacyRectangle);
         CenterRectangle(rectangle);
     }
 }

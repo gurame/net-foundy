@@ -1,6 +1,6 @@
 namespace NetFoundy.DesignPatterns.Adapter.Implementation;
 
-class LegacyRectanleAdapter(LegacyRectangle rectangle) : IRectangle
+class LegacyRectangleAdapter(LegacyRectangle rectangle) : IRectangle
 {
     public long GetArea()
     {
