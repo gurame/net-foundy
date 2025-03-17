@@ -3,6 +3,7 @@ using NetFoundy.DesignPatterns.Bridge.Implementation;
 using NetFoundy.DesignPatterns.Builder.Step;
 using NetFoundy.DesignPatterns.Composite.Implementation;
 using NetFoundy.DesignPatterns.Decorator.Implementation;
+using NetFoundy.DesignPatterns.Facade.Base;
 using NetFoundy.DesignPatterns.FactoryMethod.Implementation;
 using NetFoundy.DesignPatterns.Prototype.Implementation;
 
@@ -29,6 +30,9 @@ switch (topic)
         break;
     case "decorator":
         DecoratorClient.Run();
+        break;
+    case "facade":
+        FacadeClient.Run();
         break;
     default:
         Console.WriteLine("Unknown topic");
