@@ -1,6 +1,7 @@
 using NetFoundy.DesignPatterns.AbstractFactory.Implementation;
 using NetFoundy.DesignPatterns.Bridge.Implementation;
 using NetFoundy.DesignPatterns.Builder.Step;
+using NetFoundy.DesignPatterns.Composite.Implementation;
 using NetFoundy.DesignPatterns.FactoryMethod.Implementation;
 using NetFoundy.DesignPatterns.Prototype.Implementation;
 
@@ -21,6 +22,9 @@ switch (topic)
         break;
     case "bridge":
         BridgeClient.Run();
+        break;
+    case "composite":
+        CompositeClient.Run();
         break;
     default:
         Console.WriteLine("Unknown topic");
