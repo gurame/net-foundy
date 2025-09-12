@@ -24,6 +24,9 @@ switch (topic)
     case "tasks":
         Tasks.Run();
         break;
+    case "polymorphism":
+        Polymorphism.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
