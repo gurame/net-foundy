@@ -23,5 +23,16 @@ class Tuples
         (byte FirstNumber, string Name, float SecondNumber) tupleB = (FirstNumber: 123, Name: "Hello", SecondNumber: 456);
         Console.WriteLine($"tupleA == tupleB: {tupleA == tupleB}");
 
+        // Where tuples are stored? 
+        // ValueTuple is store in the stack
+        // Tuple is store in the heap
+        var smallTuple = (1, 2); // 8 bytes
+        var largeTuple = (1, 2, 3, 4, 5, 6); // 24 bytes
+        Console.WriteLine($"smallTuple: {smallTuple.GetType().FullName}");
+        Console.WriteLine($"largeTuple: {largeTuple.GetType().FullName}");
+
+        var persona = (Name: "John", Age: 30);
+        Console.WriteLine($"Name: {persona.Name}, Age: {persona.Age}");
+        Console.WriteLine($"Tuple type: {persona.GetType().FullName}");
     }
 }

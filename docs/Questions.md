@@ -21,3 +21,7 @@ This document contains a collection of questions and answers that are commonly a
 **Answer:** In .NET Core, the application starts from the .dll file by using the `dotnet` command-line tool. When you run a .NET Core application, you typically execute it using the command `dotnet yourapp.dll`. The `dotnet` tool acts as a host that loads the .NET runtime and executes the code contained in the .dll file.
 
 The .dll file itself does not contain the runtime; instead, it contains the compiled code of your application. The .NET runtime is a separate component that is either installed on the system or included in a self-contained deployment. When you run the `dotnet` command, it locates the appropriate runtime and uses it to execute the code in the .dll file, starting from the `Main` method defined in your application.
+
+### 2. What is the difference between processes and threads in C#?
+
+**Answer:** In C#, a process is an instance of a running application that has its own memory space and system resources. Each process operates independently and can contain multiple threads. A thread, on the other hand, is the smallest unit of execution within a process. Threads share the same memory space and resources of the parent process, allowing for concurrent execution of code within the same application, but each one has its own stack. In summary, processes are isolated from each other, while threads within a process can communicate and share data more easily.

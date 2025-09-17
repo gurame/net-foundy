@@ -27,6 +27,21 @@ switch (topic)
     case "polymorphism":
         Polymorphism.Run();
         break;
+    case "arrays":
+        Arrays.Run();
+        break;
+    case "bitwise":
+        Bitwise.Run();
+        break;
+    case "operators":
+        Operators.Run();
+        break;
+    case "convertingtypes":
+        ConvertingTypes.Run();
+        break;
+    case "yield":
+        Yield.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
