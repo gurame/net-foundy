@@ -14,3 +14,6 @@ patterns:
 
 performance:
 	dotnet run -c Release --project src/Performance/NetFoundy.Performance.csproj -- $(n)
+
+async:
+	dotnet run --project src/AsynchronousProgramming/NetFoundy.AsynchronousProgramming.csproj -- $(n)
