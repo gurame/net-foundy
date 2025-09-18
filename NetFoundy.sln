@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryTrace.Console", "src\I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFoundy.Performance", "src\Performance\NetFoundy.Performance.csproj", "{1034E08E-7AF6-4C63-B163-7D791321B305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousProgramming", "src\AsynchronousProgramming\AsynchronousProgramming.csproj", "{89D650EF-AA03-4943-A6A1-8B31D8ACF7E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFoundy.AsynchronousProgramming", "src\AsynchronousProgramming\NetFoundy.AsynchronousProgramming.csproj", "{89D650EF-AA03-4943-A6A1-8B31D8ACF7E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
