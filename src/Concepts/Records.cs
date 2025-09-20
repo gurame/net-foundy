@@ -3,6 +3,11 @@ namespace NetFoundy.Concepts;
 class Records
 {
     public record Person(string FirstName, string LastName);
+
+    public record Animal
+    {
+        public string Name { get; set; }
+    }
     public static void Run()
     {
         var person = new Person("John", "Doe");
@@ -15,5 +20,9 @@ class Records
         var (firstName, lastName) = person3;
         Console.WriteLine(firstName);
         Console.WriteLine(lastName);
+        
+        var animal = new Animal { Name = "Fido" };
+        animal.Name = "Rex";
+        
     }
 }

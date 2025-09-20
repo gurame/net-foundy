@@ -1,3 +1,5 @@
+using System.Collections;
+
 class Arrays
 {
     public static void Run()
@@ -42,6 +44,18 @@ class Arrays
                 Console.Write("Element at ({0},{1}): ", i, j);
                 Console.WriteLine(multiDimArray[i, j]);
             }
-        }  
+        }
+        
+        // What types of data structures could support boxing and unboxing?
+        ArrayList arrayList = new ArrayList();
+        arrayList.Add(1); // Boxing
+        arrayList.Add("two");
+        arrayList.Add(3.0);
+        Console.WriteLine("ArrayList elements:");
+        Queue<int> queue = new Queue<int>();
+        Stack<int> stack = new Stack<int>();
+        Hashtable hashtable = new Hashtable();
+        hashtable.Add("one", 1);
+        
     }
 }
