@@ -1,11 +1,14 @@
 ﻿using NetFoundy.AsynchronousProgramming;
 
-var topic = args[0];
+var topic = args.Length > 0 ? args[0] : "statemachines";
 switch (topic)
 {
     case "exceptionsintask":
         await ExceptionsInTask.Run();
-        break;  
+        break;
+    case "statemachines":
+        await StateMachines.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
