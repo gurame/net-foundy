@@ -9,6 +9,9 @@ switch (topic)
     case "statemachines":
         await StateMachines.Run();
         break;
+    case "customtask":
+        await CustomTask.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
