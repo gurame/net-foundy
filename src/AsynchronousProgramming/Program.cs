@@ -12,6 +12,10 @@ switch (topic)
     case "customtask":
         await CustomTask.Run();
         break;
+    case "asyncvoid":
+        var asyncVoid = new AsyncVoid();
+        Console.ReadKey();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
