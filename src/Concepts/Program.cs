@@ -42,6 +42,9 @@ switch (topic)
     case "yield":
         Yield.Run();
         break;
+    case "lists":
+        Lists.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
