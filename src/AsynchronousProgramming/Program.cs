@@ -16,6 +16,9 @@ switch (topic)
         var asyncVoid = new AsyncVoid();
         Console.ReadKey();
         break;
+    case "threadstatics":
+        ThreadStatics.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
