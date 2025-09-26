@@ -19,6 +19,10 @@ switch (topic)
     case "threadstatics":
         ThreadStatics.Run();
         break;
+    case "execcontext":
+        await ExecContext.Run();
+        Console.ReadKey();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
