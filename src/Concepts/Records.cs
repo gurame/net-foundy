@@ -3,7 +3,6 @@ namespace NetFoundy.Concepts;
 class Records
 {
     public record Person(string FirstName, string LastName);
-
     public record Animal
     {
         public string Name { get; set; }
