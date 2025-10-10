@@ -8,6 +8,9 @@ switch (topic)
     case "string":
         StringVsStringBuilder.Run();
         break;
+    case "empty-array":
+        EmptyArrayAllocations.Run();
+        break;
     default:
         Console.WriteLine("Unknown topic");
         break;
